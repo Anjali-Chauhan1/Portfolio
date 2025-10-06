@@ -22,7 +22,7 @@ const VantaBackground = () => {
         baseColor:0xf0fcf7,
         blurFactor: 0.6,
         zoom: 1.0,
-        speed: 3.0,
+        speed: 2.0,
       });
       setVantaEffect(effect);
     }
