@@ -12,7 +12,7 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="min-h-screen flex flex-col justify-center items-center px-6 bg-white">
+    <section id="contact" className="min-h-screen flex flex-col justify-center items-center px-6">
       <h2 className="text-4xl font-bold mb-6">Contact Me</h2>
       <form onSubmit={handleSubmit} className="flex flex-col w-full max-w-md gap-4">
         <input
@@ -21,7 +21,7 @@ function Contact() {
           placeholder="Your Name"
           value={form.name}
           onChange={handleChange}
-          className="p-3 rounded-lg border border-gray-300 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-600"
+          className="p-3 rounded-lg border border-green-500 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-600"
           required
         />
         <input
@@ -30,7 +30,7 @@ function Contact() {
           placeholder="Your Email"
           value={form.email}
           onChange={handleChange}
-          className="p-3 rounded-lg border border-gray-300 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-600"
+          className="p-3 rounded-lg border border-green-500 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-600"
           required
         />
         <textarea
@@ -38,7 +38,7 @@ function Contact() {
           placeholder="Your Message"
           value={form.message}
           onChange={handleChange}
-          className="p-3 rounded-lg border border-gray-300 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-600"
+          className="p-3 rounded-lg border border-green-500 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-600"
           rows="5"
           required
         ></textarea>

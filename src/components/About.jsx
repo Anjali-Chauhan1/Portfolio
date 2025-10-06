@@ -4,9 +4,9 @@ function About() {
   return (
     <section
       id="about"
-      className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-24 py-16 bg-gradient-to-b from-green-50 to-white"
+      className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-24 py-16"
     >
-      {/* Left Side - Image */}
+      
       <div className="flex-1 flex justify-center mb-12 md:mb-0">
         <div className="relative w-72 h-72 md:w-96 md:h-[28rem] rounded-3xl overflow-hidden shadow-2xl border-4 border-green-500 hover:scale-105 transform transition duration-500">
           <img

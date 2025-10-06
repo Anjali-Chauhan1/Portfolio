@@ -1,12 +1,12 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaInstagram , FaTwitter, FaEnvelope } from "react-icons/fa";
-import profileImg from "../assets/portfolioImg.jpg"; // your profile image
+import profileImg from "../assets/portfolioImg.jpg"; 
 
 function Hero() {
   return (
     <section
       id="hero"
-      className="h-screen flex flex-col md:flex-row items-center justify-center bg-gradient-to-b from-green-50 to-white px-8 md:px-16"
+      className="h-screen flex flex-col md:flex-row items-center justify-center px-8 md:px-16"
     >
       
       <div className="flex-1 text-center md:text-left space-y-6">
@@ -15,7 +15,7 @@ function Hero() {
           <span className="block mt-6">
             {" "}
             I'm
-            <span className="text-green-700 "> Anjali Chauhan</span>
+            <span className="text-green-800 "> Anjali Chauhan</span>
           </span>
         </h1>
         <p className="text-xl md:text-3xl mt-2 text-gray-700">
